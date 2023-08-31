@@ -1,9 +1,13 @@
 import StateHookSample from './Hook/StateHookSample';
+import UseEffectComponentSample from "./Hook/useEffect/useEffectComponentSample";
+
+
 
 function App() {
   return (
     <div className="App">
-      <StateHookSample />
+      {/* <StateHookSample /> */}
+      <UseEffectComponentSample />
     </div>
   );
 }
