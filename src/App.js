@@ -1,4 +1,5 @@
 import StateHookSample from './Hook/StateHookSample';
+import UseCallbackSampleCode from './Hook/useCallback/UseCallbackSampleCode';
 import ContextSample from './Hook/useContex/ContextSample';
 import UseEffectComponentSample from "./Hook/useEffect/useEffectComponentSample";
 import UseMemoHookSample from './Hook/useMemo/UseMemoHookSample';
@@ -17,7 +18,8 @@ function App() {
       {/* <UseRefHookSample /> */}
       {/* <ContextSample /> */}
       {/* <UseReducerSampleCode /> */}
-      <UseReducerSampleCodeTodo2 />
+      {/* <UseReducerSampleCodeTodo2 /> */}
+      <UseCallbackSampleCode />
     </div>
   );
 }
